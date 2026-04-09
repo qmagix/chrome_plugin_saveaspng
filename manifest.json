@@ -3,7 +3,7 @@
   "name": "Save Webpage as Image",
   "version": "1.0.0",
   "description": "Capture a full-page scrolling screenshot and save it as PNG or JPG.",
-  "permissions": ["activeTab", "downloads", "debugger"],
+  "permissions": ["activeTab", "downloads", "scripting"],
   "host_permissions": ["<all_urls>"],
   "action": {
     "default_popup": "popup.html",

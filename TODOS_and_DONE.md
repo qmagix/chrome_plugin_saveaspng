@@ -8,7 +8,7 @@
 ## Backend / Core
 - [x] Implement `manifest.json` for MV3.
 - [x] Create background worker to coordinate capture messaging.
-- [x] Implement full page capture using `chrome.debugger` API.
+- [x] Implement full page capture using injected `content_stitch.js` (Scroll-And-Stitch method).
 - [x] File format generation (PNG and JPEG).
 
 ## Frontend / UI
