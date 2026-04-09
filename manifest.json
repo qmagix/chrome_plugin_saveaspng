@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Save Webpage as Image",
+  "version": "1.0.0",
+  "description": "Capture a full-page scrolling screenshot and save it as PNG or JPG.",
+  "permissions": ["activeTab", "downloads", "debugger"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Save Page as Image"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
